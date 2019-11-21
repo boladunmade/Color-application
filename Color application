@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Color Game</title>
+    
+    <script>
+      function red() {
+        document.getElementById("ball").style.backgroundColor = "red";
+        document.getElementById("ball1").style.backgroundColor = "red";
+        document.getElementById("ball2").style.backgroundColor = "red";
+        document.getElementById("ball3").style.backgroundColor = "red";
+      }
+
+      function blue() {
+        document.getElementById("ball").style.backgroundColor = "blue";
+        document.getElementById("ball1").style.backgroundColor = "blue";
+        document.getElementById("ball2").style.backgroundColor = "blue";
+        document.getElementById("ball3").style.backgroundColor = "blue";
+      }
+
+      function green() {
+        document.getElementById("ball").style.backgroundColor = "green";
+        document.getElementById("ball1").style.backgroundColor = "green";
+        document.getElementById("ball2").style.backgroundColor = "green";
+        document.getElementById("ball3").style.backgroundColor = "green";
+      }
+
+      function brown() {
+        document.getElementById("ball").style.backgroundColor = "brown";
+        document.getElementById("ball1").style.backgroundColor = "brown";
+        document.getElementById("ball2").style.backgroundColor = "brown";
+        document.getElementById("ball3").style.backgroundColor = "brown";
+      }
+
+      function pink() {
+        document.getElementById("ball").style.backgroundColor = "pink";
+        document.getElementById("ball1").style.backgroundColor = "pink";
+        document.getElementById("ball2").style.backgroundColor = "pink";
+        document.getElementById("ball3").style.backgroundColor = "pink";
+      }
+
+      function gray() {
+        document.getElementById("ball").style.backgroundColor = "gray";
+        document.getElementById("ball1").style.backgroundColor = "gray";
+        document.getElementById("ball2").style.backgroundColor = "gray";
+        document.getElementById("ball3").style.backgroundColor = "gray";
+      }
+
+      function gold() {
+        document.getElementById("ball").style.backgroundColor = "gold";
+        document.getElementById("ball1").style.backgroundColor = "gold";
+        document.getElementById("ball2").style.backgroundColor = "gold";
+        document.getElementById("ball3").style.backgroundColor = "gold";
+      }
+
+      function orange() {
+        document.getElementById("ball").style.backgroundColor = "orange";
+        document.getElementById("ball1").style.backgroundColor = "orange";
+        document.getElementById("ball2").style.backgroundColor = "orange";
+        document.getElementById("ball3").style.backgroundColor = "orange";
+      }
+    </script>
+    
+  </head>
+
+  
+  <body>
+    <div id="contain">
+      <div id="colors">
+        <button onclick="red()">Red</button>
+        <button onclick="blue()">Blue</button>
+        <button onclick="green()">Green</button>
+        <button onclick="brown()">Brown</button>
+      </div>
+
+      <div id="back">
+        <marquee behavior="alternate" direction="right">
+          <p id="ball"></p>
+        </marquee>
+
+        <marquee behavior="alternate" direction="up">
+          <p id="ball1"></p>
+        </marquee>
+
+        <marquee behavior="alternate" direction="left">
+          <p id="ball2"></p>
+        </marquee>
+        <marquee behavior="alternate" direction="up">
+          <p id="ball3"></p>
+        </marquee>
+      </div>
+      <div id="colors">
+        <button onclick="pink()">Pink</button>
+        <button onclick="gray()">Gray</button>
+        <button onclick="gold()">Gold</button>
+        <button onclick="orange()">Orange</button>
+      </div>
+    </div>
+    
+      <style>
+    #contain {
+      width: 1030px;
+      height: 520px;
+      background-color: black;
+      margin: auto;
+      padding: 50px;
+    }
+
+    #colors {
+      width: 300px;
+      height: 500px;
+      float: left;
+      background-color: yellow;
+      padding: 20px;
+    }
+
+    #back {
+      width: 300px;
+      height: 500px;
+      float: left;
+
+      padding: 20px;
+    }
+
+    button {
+      width: 200px;
+      height: 80px;
+      margin: 20px;
+      border-radius: 8px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+    }
+
+    #ball {
+      width: 100px;
+      height: 100px;
+      background-color: grey;
+      border-radius: 60%;
+    }
+    #ball1 {
+      width: 100px;
+      height: 100px;
+      background-color: grey;
+      border-radius: 60%;
+    }
+
+    #ball2 {
+      width: 100px;
+      height: 100px;
+      background-color: grey;
+      border-radius: 60%;
+    }
+
+    #ball3 {
+      width: 100px;
+      height: 100px;
+      background-color: grey;
+      border-radius: 60%;
+    }
+  </style>
+  </body>
+</html>
+
+
+
+
+
+
+    
+  
